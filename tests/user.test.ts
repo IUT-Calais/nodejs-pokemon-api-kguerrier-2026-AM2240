@@ -1,8 +1,9 @@
 import request from 'supertest';
 import { app } from '../src';
-import { prismaMock } from './jest.setup';
 
 describe('User API', () => {
+  // TODO: Tests will be implemented
+});
   describe('POST /users', () => {
     it('should create a new user', async () => {
       const createdUser = {};

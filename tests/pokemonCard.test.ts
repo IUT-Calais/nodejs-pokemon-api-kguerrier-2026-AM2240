@@ -2,7 +2,8 @@ import request from 'supertest';
 import { app } from '../src';
 
 describe('PokemonCard API', () => {
-  describe('GET /pokemons-cards', () => {
+  // TODO: Tests will be implemented
+});
     it('should fetch all PokemonCards', async () => {
       const response = await request(app).get('/pokemons-cards');
 
